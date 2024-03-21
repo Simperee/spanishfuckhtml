@@ -16,6 +16,21 @@ html, html * {
     outline-color: #faf9e7;
   }
 
+  .button {
+    background: #fef9e7;
+    color: lighten(#fef9e7, 50%);
+    &:hover {
+      color: #8c5d82;
+      background-color: lighten(#fef9e7, 10%);
+    }
+  }
+
+  .content {
+    p{
+      color: lighten(#fef9e7, 10%);
+    }
+  }
+
   img, video {z-index: 1}
   cite, cite * {color: #029833 !important}
   video {background-color: transparent !important}
