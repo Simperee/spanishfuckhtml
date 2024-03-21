@@ -1,5 +1,4 @@
 .logo {
-  filter: invert(42%) sepia(40%) saturate(407%) hue-rotate(261deg) brightness(88%) contrast(88%);
   display: none;
   @include media-breakpoint-up(sm) {
     display: block;
@@ -8,6 +7,7 @@
   img {
     width: 100%;
     height: auto;
+    filter: invert(42%) sepia(40%) saturate(407%) hue-rotate(261deg) brightness(88%) contrast(88%);
   }
   a {
     display: block;

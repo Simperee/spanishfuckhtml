@@ -1,9 +1,9 @@
 .social {
   display: block;
-  filter: invert(42%) sepia(40%) saturate(407%) hue-rotate(261deg) brightness(88%) contrast(88%);
   img {
     width: 20px;
     height: 20px;
+    filter: invert(42%) sepia(40%) saturate(407%) hue-rotate(261deg) brightness(88%) contrast(88%);
   }
   a {
     display: inline-block;
