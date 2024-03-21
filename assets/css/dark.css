@@ -1,5 +1,5 @@
 html, html * {
-    color: #fef9e7 !important;
+    color: #faf9e7 !important;
     border-color: #8c5d82 !important;
     background-color: #8c5d82 !important;
   }
@@ -9,7 +9,7 @@ html, html * {
   }
 
   .header {
-    outline-color: #fef9e7 !important;
+    outline-color: #faf9e7 !important;
   }
 
   .sub-footer {
@@ -17,17 +17,17 @@ html, html * {
   }
 
   .button {
-    background: #fef9e7;
-    color: lighten(#fef9e7, 50%);
+    background: #faf9e7;
+    color: lighten(#faf9e7, 50%);
     &:hover {
       color: #8c5d82;
-      background-color: lighten(#fef9e7, 10%);
+      background-color: lighten(#faf9e7, 10%);
     }
   }
 
   .content {
     p{
-      color: lighten(#fef9e7, 10%);
+      color: lighten(#faf9e7, 10%);
     }
   }
 
@@ -39,12 +39,12 @@ html, html * {
   a {background-color: #8c5d82 !important}
   .dot {color: #8c5d82 !important}
   
-  :before {color: #fef9e7 !important}
-  :link, :link * {color: #fef9e7 !important}
-  :visited, :visited * {color: #fef9e7 !important}
-  :hover {color: #fef9e7;}
+  :before {color: #faf9e7 !important}
+  :link, :link * {color: #faf9e7 !important}
+  :visited, :visited * {color: #faf9e7 !important}
+  :hover {color: #faf9e7;}
 
-  .logo {
+  /* .logo {
     img{
       filter: invert(100%) sepia(59%) saturate(422%) hue-rotate(313deg) brightness(102%) contrast(99%);
     }
@@ -54,4 +54,6 @@ html, html * {
     imgg {
       filter: invert(100%) sepia(59%) saturate(422%) hue-rotate(313deg) brightness(102%) contrast(99%);
     }
-  }
+  } */
+
+  svg {fill: #faf9e7}
