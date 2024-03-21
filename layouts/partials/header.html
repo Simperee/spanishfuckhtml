@@ -2,7 +2,7 @@
   <script src="https://kit.fontawesome.com/409cfd07ae.js" crossorigin="anonymous"></script>
   {{ $style := resources.Get "css/dark.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
   <link disabled id="dark-mode-theme" rel="stylesheet" href="{{ $style.Permalink }}">
-  <a style="text-decoration: none; color: #8c5d82; align-items: center; display: inline-block; padding: 10px 14px 10px 14px;" class="fa-regular fa-moon" id="dark-mode-toggle"></a>
+  <a style="text-decoration: none; color: #8c5d82; align-items: end; display: inline-block; padding: 10px 14px 10px 14px;" class="fa-regular fa-moon" id="dark-mode-toggle"></a>
   <script>
   var toggle = document.getElementById("dark-mode-toggle");
   var darkTheme = document.getElementById("dark-mode-theme");
