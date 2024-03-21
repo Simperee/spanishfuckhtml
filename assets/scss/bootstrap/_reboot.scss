@@ -247,11 +247,14 @@ a {
 
   &:hover {
     --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
-    text-decoration-color: #60f2b6; /* Purple color */
+    text-decoration-color: $link-color;/*#60f2b6; /* Purple color */
   }
 
   &:link {
     color:$link-color;
+  }
+  &:hover {
+    color: $link-color;
   }
 }
 

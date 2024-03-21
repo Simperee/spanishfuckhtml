@@ -15,16 +15,16 @@
         padding: 10px 14px 10px 14px;
         display: inline-block;
         font-weight: bold;
-        color: #60f2b6;
+        color: $link-color;
         text-decoration: underline;
         text-decoration-color: transparent;
         transition: text-decoration-color 0.3s ease;
         &:hover {
           color: $primary;
-          text-decoration-color: #60f2b6; /* Purple color */
+          text-decoration-color: $link-color; /* Purple color */
         }
         &:link {
-          color:#60f2b6;
+          color: $link-color;
         }
       }
       &.active {
