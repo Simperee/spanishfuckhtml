@@ -21,7 +21,7 @@ html, html * {
     color: lighten(#fef9e7, 50%);
     &:hover {
       color: #8c5d82;
-      background-color: lighten(#fef9e7 10%);
+      background-color: lighten(#fef9e7, 10%);
     }
   }
 
