@@ -1,7 +1,7 @@
 html, html * {
-    color: #eeeeee !important;
-    border-color: #7b16ff !important;
-    background-color: #292929 !important;
+    color: #fef9e7 !important;
+    border-color: #8c5d82 !important;
+    background-color: #8c5d82 !important;
   }
   
   html, body, html::before, body::before {
@@ -11,12 +11,14 @@ html, html * {
   img, video {z-index: 1}
   cite, cite * {color: #029833 !important}
   video {background-color: transparent !important}
-  input, textarea {background-color: #292929 !important}
+  input, textarea {background-color: #8c5d82 !important}
   input, select, button {background-image: none !important}
-  a {background-color: rgba(255, 255, 255, 0.01) !important}
-  .dot {color: #7b16ff !important}
+  a {background-color: #8c5d82 !important}
+  .dot {color: #8c5d82 !important}
   
-  :before {color: #eeeeee !important}
-  :link, :link * {color: #8db2e5 !important}
-  :visited, :visited * {color: #7b16ff !important}
+  :before {color: #fef9e7 !important}
+  :link, :link * {color: #fef9e7 !important}
+  :visited, :visited * {color: #fef9e7 !important}
+
+  .logo {filter: invert(100%) sepia(59%) saturate(422%) hue-rotate(313deg) brightness(102%) contrast(99%);}
   
