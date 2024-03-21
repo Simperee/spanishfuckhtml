@@ -244,6 +244,7 @@ a {
   text-decoration: underline;
     text-decoration-color: transparent;
     transition: text-decoration-color 0.3s ease;
+    color: $link-color;
 
   &:hover {
     --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
