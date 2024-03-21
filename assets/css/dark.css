@@ -8,6 +8,14 @@ html, html * {
     background-image: none !important;
   }
 
+  .header {
+    outline-color: #fef9e7 !important;
+  }
+
+  .sub-footer {
+    outline-color: #faf9e7;
+  }
+
   img, video {z-index: 1}
   cite, cite * {color: #029833 !important}
   video {background-color: transparent !important}

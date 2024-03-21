@@ -2,20 +2,20 @@
   white-space: nowrap;
   display: inline-block;
   padding: 8px 15px 6px 15px;
-  background: #f94937;
+  background: #8c5d82;
   font-weight: normal;
   text-transform: uppercase;
   color: lighten($primary, 50%);
   text-decoration: none;
   border-radius: 3px;
   &:hover {
-    color: #fff;
-    background-color: lighten(#f94937, 10%);
+    color: #fef9e7;
+    background-color: lighten(#8c5d82, 10%);
     text-decoration: none;
   }
 }
 .button-white {
   background: none;
-  color: #fff;
-  border: 2px solid #fff;
+  color: #fef9e7;
+  border: 2px solid ;
 }
