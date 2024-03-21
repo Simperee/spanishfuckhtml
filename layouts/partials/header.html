@@ -1,4 +1,33 @@
 <div class='header'>
+  <script src="https://kit.fontawesome.com/409cfd07ae.js" crossorigin="anonymous"></script>
+  {{ $style := resources.Get "css/dark.css" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+  <link disabled id="dark-mode-theme" rel="stylesheet" href="{{ $style.Permalink }}">
+  <a style="text-decoration: none; color: #00ff00; margin-right: auto;" class="fa-regular fa-moon" id="dark-mode-toggle"></a>
+  <script>
+  var toggle = document.getElementById("dark-mode-toggle");
+  var darkTheme = document.getElementById("dark-mode-theme");
+  var savedTheme = localStorage.getItem("dark-mode-storage") || "light";
+  setTheme(savedTheme);
+
+  toggle.addEventListener("click", () => {
+      if (toggle.className === "fa-regular fa-moon") {
+          setTheme("dark");
+      } else if (toggle.className === "fa-regular fa-sun") {
+          setTheme("light");
+      }
+  });
+
+  function setTheme(mode) {
+        localStorage.setItem("dark-mode-storage", mode);
+      if (mode === "dark") {
+          darkTheme.disabled = false;
+          toggle.className = "fa-regular fa-sun";
+      } else if (mode === "light") {
+          darkTheme.disabled = true;
+          toggle.className = "fa-regular fa-moon";
+      }
+  }
+</script>
   <div class="container">
     <div class="logo">
       <a href="{{ .Site.BaseURL }}"><img width="150" height="150" alt="Logo" src="{{ .Site.Params.logo.standard | relURL }}" /></a>
