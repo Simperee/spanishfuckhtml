@@ -68,5 +68,5 @@ html, html * {
   } */
 
   .mode-filter{
-    filter: invert(100%) sepia(59%) saturate(422%) hue-rotate(313deg) brightness(102%) contrast(99%);
+    filter: brightness(0) saturate(100%) invert(88%) sepia(3%) saturate(2263%) hue-rotate(326deg) brightness(118%) contrast(96%);
   }
