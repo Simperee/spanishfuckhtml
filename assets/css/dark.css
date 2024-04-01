@@ -52,11 +52,12 @@ html, html * {
   
   .social {
     img {
-      background: transparent;
       filter: invert(100%) sepia(59%) saturate(422%) hue-rotate(313deg) brightness(102%) contrast(99%);
+      background: transparent;
     }
   }
 
   svg {
-    background-color: rgba(0,0,0,0)
+    background-color: rgba(0,0,0,0);
+    background: transparent;
   }
