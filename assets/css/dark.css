@@ -57,4 +57,6 @@ html, html * {
     }
   }
 
-  /* svg {fill: #faf9e7} */
+  svg {
+    background-color: rgba(0,0,0,0)
+  }
