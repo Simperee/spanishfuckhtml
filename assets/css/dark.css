@@ -52,8 +52,8 @@ html, html * {
   
   .social {
     a{
-      background: transparent;
-      color: transparent;
+      background: #faf9e7;
+      color: #faf9e7;
     }
     img {
       filter: invert(100%) sepia(59%) saturate(422%) hue-rotate(313deg) brightness(102%) contrast(99%);
