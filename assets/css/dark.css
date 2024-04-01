@@ -50,7 +50,7 @@ html, html * {
     }
   } */
   
-  .social {
+  /* .social {
     a{
       background: #faf9e7;
       color: #faf9e7;
@@ -59,9 +59,13 @@ html, html * {
       filter: invert(100%) sepia(59%) saturate(422%) hue-rotate(313deg) brightness(102%) contrast(99%);
       background: transparent;
     }
-  }
+  } */
 
   /* svg {
     background-color: rgba(0,0,0,0);
     background: transparent;
   } */
+
+  .mode-filter{
+    filter: invert(100%) sepia(59%) saturate(422%) hue-rotate(313deg) brightness(102%) contrast(99%);
+  }
