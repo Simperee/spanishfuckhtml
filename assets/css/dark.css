@@ -42,6 +42,9 @@ html, html * {
   :link, :link * {color: #faf9e7 !important}
   :visited, :visited * {color: #faf9e7 !important}
   :hover {color: #faf9e7;}
+  .sub-footer{
+    background-color: #8c5d82;
+  }
 
   .mode-filter{
     filter: brightness(0) saturate(100%) invert(88%) sepia(3%) saturate(2263%) hue-rotate(326deg) brightness(118%) contrast(96%);
