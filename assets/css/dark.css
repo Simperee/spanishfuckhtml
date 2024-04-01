@@ -48,12 +48,12 @@ html, html * {
     img{
       filter: invert(100%) sepia(59%) saturate(422%) hue-rotate(313deg) brightness(102%) contrast(99%);
     }
-  }
+  } */
   
   .social {
-    imgg {
+    img {
       filter: invert(100%) sepia(59%) saturate(422%) hue-rotate(313deg) brightness(102%) contrast(99%);
     }
-  } */
+  }
 
   svg {fill: #faf9e7}
