@@ -37,7 +37,6 @@ html, html * {
   input, textarea {background-color: #8c5d82 !important}
   input, select, button {background-image: none !important}
   a {background-color: #8c5d82 !important}
-  .dot {color: #8c5d82 !important}
   
   :before {color: #faf9e7 !important}
   :link, :link * {color: #faf9e7 !important}
@@ -50,11 +49,13 @@ html, html * {
     }
   } */
   
-  /* .social {
+  .social {
     a{
       background: #faf9e7;
       color: #faf9e7;
     }
+  }
+  /*
     img {
       filter: invert(100%) sepia(59%) saturate(422%) hue-rotate(313deg) brightness(102%) contrast(99%);
       background: transparent;
